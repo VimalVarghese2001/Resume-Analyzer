@@ -2,6 +2,16 @@
 
 An AI-powered placement tracker and resume analyzer that helps students and early-career developers optimize their resumes for specific job descriptions.
 
+🌐 Live Demo
+
+Frontend:
+
+https://resume-analyzer-frontend-gfti.onrender.com
+
+Backend API:
+
+https://resume-analyzer-backend-ktnu.onrender.com
+
 ## ✨ Features
 
 * 📄 Upload PDF resumes
