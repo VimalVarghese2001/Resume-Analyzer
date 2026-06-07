@@ -92,7 +92,21 @@ PORT=5000
 
 ## 📸 Screenshots
 
-(Add screenshots of your dashboard and AI analysis modal here.)
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### AI Analysis
+
+![AI Analysis](screenshots/ai-analysis.png)
+
+---
+
+### Application History
+
+![Application History](screenshots/application-history.png)
 
 ## 🚀 Future Improvements
 
