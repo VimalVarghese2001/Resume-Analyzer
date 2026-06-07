@@ -38,7 +38,7 @@ function Dashboard() {
           {/* Header */}
 
           <h1 className="text-6xl font-extrabold text-white">
-            PrepPilot AI 🚀
+            Resume Analyzer 🚀
           </h1>
 
           <p className="text-gray-400 mt-4 text-xl">
