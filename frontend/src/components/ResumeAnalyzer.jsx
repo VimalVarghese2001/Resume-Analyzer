@@ -44,14 +44,14 @@ function ResumeAnalyzer({
     formData.append("resume", selectedFile);
 
     const uploadResponse = await axios.post(
-      "http://localhost:5000/api/upload",
+      "https://resume-analyzer-backend-ktnu.onrender.com/api/upload",
       formData
     );
 
     const resumeText = uploadResponse.data.resumeText;
 
     const analysisResponse = await axios.post(
-      "http://localhost:5000/api/analyze",
+      "https://resume-analyzer-backend-ktnu.onrender.com/api/analyze",
       {
         companyName: company,
         jobRole: role,

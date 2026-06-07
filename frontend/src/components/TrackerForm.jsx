@@ -13,7 +13,7 @@ function TrackerForm({
     try {
 
       await axios.post(
-        "http://localhost:5000/api/applications",
+        "https://resume-analyzer-backend-ktnu.onrender.com/api/applications",
         {
           company,
           role,

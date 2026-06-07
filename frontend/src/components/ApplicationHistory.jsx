@@ -20,7 +20,7 @@ function ApplicationHistory({
   const fetchApplications = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/applications"
+        "https://resume-analyzer-backend-ktnu.onrender.com/api/applications"
       );
 
       setApplications(res.data);
@@ -32,7 +32,7 @@ function ApplicationHistory({
   const fetchAnalyses = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/analyze"
+        "https://resume-analyzer-backend-ktnu.onrender.com/api/analyze"
       );
 
       setAnalyses(res.data);
