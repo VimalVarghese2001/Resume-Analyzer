@@ -22,26 +22,27 @@ function Dashboard() {
         initial={{ opacity: 0, y: 25 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        className="w-full max-w-7xl"
+        className="w-full max-w-7xl px-4 md:px-0"
       >
         <div
           className="
-          bg-white/5
-          backdrop-blur-xl
-          border
-          border-white/10
-          rounded-3xl
-          p-10
-          shadow-2xl
+            bg-white/5
+            backdrop-blur-xl
+            border
+            border-white/10
+            rounded-3xl
+            p-5
+            md:p-10
+            shadow-2xl
           "
         >
           {/* Header */}
 
-          <h1 className="text-6xl font-extrabold text-white">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white break-words">
             Resume Analyzer 🚀
           </h1>
 
-          <p className="text-gray-400 mt-4 text-xl">
+          <p className="text-gray-400 mt-4 text-base md:text-xl">
             Track Applications. Analyze Resumes.
             Ace Interviews.
           </p>
@@ -72,15 +73,15 @@ function Dashboard() {
 
           <div className="mt-10">
             <ApplicationHistory
-            refreshHistory={refreshHistory}
-            setAnalysis={setAnalysis}
-            setShowModal={setShowModal}
+              refreshHistory={refreshHistory}
+              setAnalysis={setAnalysis}
+              setShowModal={setShowModal}
             />
           </div>
         </div>
       </motion.div>
 
-      {/* Modal OUTSIDE motion.div */}
+      {/* Analysis Modal */}
 
       <AnalysisModal
         isOpen={showModal}
