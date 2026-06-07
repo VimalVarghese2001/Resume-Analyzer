@@ -6,7 +6,7 @@ An AI-powered placement tracker and resume analyzer that helps students and earl
 
 Frontend:
 
-https://resume-analyzer-frontend-gfti.onrender.com
+https://resume-analyzer-frontend-gfif.onrender.com
 
 Backend API:
 
